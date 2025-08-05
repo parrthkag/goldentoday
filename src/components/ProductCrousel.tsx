@@ -8,7 +8,7 @@ const ProductCarousel = () => {
     const nextSlide = () => setCurrent(c => (c < products.length - 1 ? c + 1 : 0));
 
     return (
-        <section className="relative bg-gradient-to-r from-[#FFF8EF] to-[#FBE09A] py-12 px-4">
+        <section className="relative bg-gradient-to-r from-[rgb(255,255,240)] to-[#FFDB77] py-12 px-4">
             <div className="max-w-5xl mx-auto text-center">
                 <h2 className="text-4xl md:text-5xl font-serif text-black mb-2">Our Products</h2>
                 <p className="text-gray-700 mb-8 text-lg">
